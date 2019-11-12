@@ -1,0 +1,46 @@
+*{ margin:0; padding:0;}
+body{max-width:1920px;background-color: #2460A7FF;}
+
+a{text-decoration: none;}
+#piValues{ float:left;width:60%;}
+
+/*BUTTONS*/
+#buttons{float:left;width:40%;background:#fff;height:100vh; padding-top:4%;-webkit-box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);box-shadow: inset 0px 0px 23px 0px rgba(0,0,0,0.75);}
+#buttons h3{color:#000;}
+#buttons div{display: block;width:75px;height:75px;margin-left:37.5%;border-radius:20px;text-align: center;vertical-align: middle;line-height: 75px; color:#fff;}
+#buttons p+p{ margin-bottom:4.5%;}
+#buttons .buttonBox+.buttonBox{margin-top:15%;}
+.buttonBox h3{font-family:Arial, Helvetica, sans-serif;}
+
+/*STATE CLASSES*/
+.lightsactive{background: rgb(227, 227, 7)}
+.plugsactive{background: rgb(124, 209, 255);}
+.frontdooractive{background:#00CC00;}
+.backdooractive{background:#00CC00;}
+.lightsdorment{background:#CCCC00	;}  
+.plugsdorment{background: #004C99;}
+.frontdoordorment{background: red;}
+.backdoordorment{background: red;}
+
+/*TEMP AND HUMID DIVS*/
+.valueDiv{margin-top:22.5%;border:2px solid #fff;width:30%;float:left;height:350px;border-radius:5%;margin-left:20%;}
+.valueDiv + .valueDiv{margin-left:3%;}
+.valueDiv p{font-family: Arial, Helvetica, sans-serif;}
+#tempdisplay{background:rgb(240, 53, 53); height:50%;border-top-left-radius: 14px;border-top-right-radius: 14px;}
+#humiddisplay{background:rgb(28, 183, 33); height:50%;border-top-left-radius: 14px;border-top-right-radius: 14px;}
+#tempname{position: absolute; color:#fff; border:2px solid #fff;  background:rgb(240, 53, 53);padding:0.5% 1%; border-radius:20px; margin-left:4.9%; margin-top:-1%; width:100px; text-align:center;}
+#humidname{position: absolute; color:#fff;  border:2px solid #fff; background: rgb(28, 183, 33);padding:0.5% 1%; border-radius:20px; margin-left:4.9%; margin-top:-1%; width:100px; text-align:center;}
+#tempvalue{background:rgb(250, 250, 250); height:50%; border-bottom-left-radius: 14px;border-bottom-right-radius: 14px;}
+#humidvalue{background:rgb(250, 250, 250); height:50%; border-bottom-left-radius: 14px;border-bottom-right-radius: 14px;}
+#tempdisplay i{font-size:100px;margin-left:37.5%;margin-top:7.5%;color:#FFF;}
+#humiddisplay i{font-size:100px;margin-left:37.5%;margin-top:7.5%;color:#FFF;}
+#tempvalue p {font-size:80px;margin-left:35%;padding-top:12.5% ;}
+#humidvalue p {font-size:80px;margin-left:35%;padding-top:12.5% ;}
+
+/* ALERT BUTTON*/
+#alertButton{font-size:25px;position:absolute;font-family:Arial, Helvetica, sans-serif;background:red;color:#FFF;border:1px solid #fff;padding:1% 3%;margin-left:26%;margin-top:40%;border-radius:30px;}
+
+/*CLEARFIX */
+.clearfix {overflow: auto;}
+
+ 

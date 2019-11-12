@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <title>Domotica</title>
+</head>
+<body>
+        <a href="#" id="alertButton">Alert</a>
+    <div id="piValues">
+        <div class="valueDiv">
+            <div id="tempdisplay">
+                    <i class="fas fa-temperature-low"></i>
+            </div>
+            <div id="tempname">
+                <p>Temperature</p>
+            </div>
+            <div id="tempvalue">
+                <p id="temp"></p>
+            </div>
+        </div>
+        <div class="valueDiv">
+                <div id="humiddisplay">
+                        <i class="fas fa-tint"></i>
+                </div>
+                <div id="humidname">
+                    <p>Humidity</p>
+                </div>
+                <div id="humidvalue">
+                    <p id="humid"></p>  
+                </div>
+         </div>
+    </div>
+    <div id="buttons">
+        <div class="buttonBox">
+            <div class="infoBox">
+                <h3>Lights</h3> 
+            </div>
+            <div id="lights">
+                <p class="lighticon"></p>
+            </div>
+        </div>
+        <div class="buttonBox">
+                <div class="infoBox"><h3>Plugs</h3></div>
+
+            <div id="plugs">
+                <p class="plugicon"></p>
+            </div>
+        </div>
+        <div class="buttonBox">
+                <div class="infoBox"><h3>Frontdoor</h3></div>
+            <div id="frontdoor"><p class="fronticon"></p>
+            </div>
+        </div>
+        <div class="buttonBox">
+                <div class="infoBox"><h3>Backdoor</h3></div>
+            <div id="backdoor"><p class="backicon"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-database.js"></script>
+    <script src="https://kit.fontawesome.com/15d599f7dd.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
